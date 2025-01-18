@@ -1,0 +1,26 @@
+A passionate Full Stack Web Developer having an experience of building Web applications with JavaScript / Reactjs / Nodejs / Firebase and some other cool libraries and frameworks.
+
+
+HTML
+Proficient in developing well-structured, accessible web pages using HTML.
+Skilled in implementing SEO-friendly semantic tags to enhance web visibility and user engagement.
+
+CSS
+Experienced in designing visually appealing, responsive, and cross-browser compatible user interfaces.
+Proficient in frameworks like Bootstrap and writing custom CSS for dynamic styling.
+
+JavaScript
+Proficient in writing clean and modular JavaScript code to build interactive web applications.
+Update myself with the latest standards, innovations and trends in javascript.
+
+React
+Skilled in developing scalable, component-based front-end applications using React.
+Experienced in state management with Redux and building reusable components.
+
+C++
+Proficient in object-oriented programming, data structures, and algorithms using C++.
+Skilled in writing efficient and optimized code for competitive programming.
+
+Java
+Experienced in building robust, scalable applications using Core Java concepts like OOP.
+Proficient in debugging and optimizing Java applications for performance and reliability.

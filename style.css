@@ -1,0 +1,238 @@
+/**************Nav and hero image Start***************************/
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  background-color: #000000;
+  font-family: Arial;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  color: #bababa;
+  padding-left: 10%;
+  font-size: 50px;
+}
+
+p {
+  width: 60%;
+}
+
+.navbar {
+  overflow: hidden;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 2%;
+}
+
+.navbar a {
+  float: left;
+  color: #bababa;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.navbar a:hover {
+  background-color: #bababa;
+  color: black;
+}
+
+.navbar a.active {
+  background-color: #bababa;
+  color: black;
+}
+
+.navbar-right {
+  float: right;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("Images/Background.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: left;
+  position: absolute;
+  top: 60%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  color: #bababa;
+  line-height: 25px;
+}
+
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #bababa;
+  text-align: center;
+  cursor: pointer;
+}
+
+.hero-text button:hover {
+  background-color: #555;
+  color: white;
+}
+
+/**************Nav and hero image end***************************/
+
+/**********************Table Start*******************/
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+  font-size: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+th {
+  color: skyblue;
+}
+td,
+th {
+  border: 1px solid #fff;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #bababa;
+}
+
+tr:nth-child(odd) {
+  color: #bababa;
+}
+
+/**********************Table End*******************/
+
+/************cards start***************/
+
+.row {
+  margin: 8px 10%;
+}
+
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+.column {
+  float: left;
+  width: 33%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.content {
+  background-color: #bababa;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+h3 {
+  font-size: 35px;
+}
+
+li {
+  font-size: 25px;
+  opacity: 0.5;
+  line-height: 40px;
+}
+/************cards end***************/
+
+/*********foam start**************/
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #bababa;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+input[type="submit"] {
+  background-color: white;
+  color: #000;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+input[type="submit"]:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.form-container {
+  border-radius: 10px;
+  background-color: #bababa;
+  padding: 20px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+/*********foam end**************/
+
+/**********Audio Control**************/
+.music {
+  margin-top: 5%;
+  background-image: url(images/music.png);
+}
+.audiocontrol {
+  background-color: #bababa;
+  margin: 20px;
+  width: 50%;
+  padding: 10px;
+  border-radius: 50px;
+  height: 75px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.audiotrack {
+  display: table-cell;
+  width: 600px;
+  text-align: left;
+  vertical-align: middle;
+  padding-left: 20px;
+  font-size: 20px;
+}
+
+.rightalign {
+  display: table-cell;
+  width: 220px;
+  vertical-align: middle;
+}
+
+/**********Audio Control end****************/
